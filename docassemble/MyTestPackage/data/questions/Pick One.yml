@@ -1,0 +1,19 @@
+---
+mandatory: True
+code: |  
+reason_variable
+  if  reason_variable == 'Option 1":
+    "ok great Option 1" 
+  else:
+    "ok"
+
+question: |
+  What do you need help with? 
+field: reason_variable
+buttons:
+  - Option 1
+  - Option 2 
+  - Option 3 
+  - Other / Something else 
+---
+
